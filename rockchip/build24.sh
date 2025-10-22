@@ -102,5 +102,5 @@ if [ $? -ne 0 ]; then
     echo "$(date '+%Y-%m-%d %H:%M:%S') - Error: Build failed!"
     exit 1
 fi
-
+make rootfs-tar
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Build completed successfully."
